@@ -25,3 +25,16 @@ https://www.udemy.com/course/bash-scripting/learn/lecture/5739688#overview
 `STRING1 = STRING2` checks equality between two strings
 
 `STRING1 != STRING2` checks inequality between two strings
+
+### Arithmetic Operators
+`NUM1 -eq NUM2` checks if the two numbers are equal 
+
+`NUM1 -ne NUM2` checks if the two numbers are not equal 
+
+`NUM1 -lt NUM2` checks if number one is less than number two 
+
+`NUM1 -le NUM2` checks if number one is less than or equal to number two 
+
+`NUM1 -gt NUM2` checks if number one is greater than number two 
+
+`NUM1 -ge NUM2` checks if number one is greater than or equal to number two 
