@@ -38,3 +38,22 @@ https://www.udemy.com/course/bash-scripting/learn/lecture/5739688#overview
 `NUM1 -gt NUM2` checks if number one is greater than number two 
 
 `NUM1 -ge NUM2` checks if number one is greater than or equal to number two 
+
+### Control Statements
+```bash
+if [ condition ] then
+    # do this
+elif [ another condition ] then
+    # do that
+else
+    # do something else
+fi
+```
+
+```bash
+for VARIABLE_NAME in ITEM_1 ITEM_N do
+    # do this
+    # do that
+    # do something else
+done
+```
