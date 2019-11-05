@@ -16,3 +16,12 @@ https://www.udemy.com/course/bash-scripting/learn/lecture/5739688#overview
 `-w FILE` checks if the file is writable
 
 `-x FILE` checks if the file is executable
+
+### String Operators
+`-z STRING` checks if the string is empty
+
+`-n STRING` checks if the string is not empty
+
+`STRING1 = STRING2` checks equality between two strings
+
+`STRING1 != STRING2` checks inequality between two strings
