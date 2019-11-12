@@ -62,3 +62,6 @@ done
 Scripts will often accept parameters. These can be accessed using `$X` where `X` is the parameter number.
 `$0` is a special parameter and is reserved for the name of the shell or shell script.
 `$@` is another special parameter. This parameter is an array of all of the parameters passed to the script.
+
+### User Input
+`read -p "PROMPT MESSAGE" VAR` will prompt the user for input using the `"PROMPT MESSAGE"` and store it in `$VAR`
