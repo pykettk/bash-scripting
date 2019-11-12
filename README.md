@@ -72,6 +72,14 @@ done
 ```
 
 ```
+while [ condition ]
+do
+    # do something
+    # do something else
+done
+```
+
+```
 case "$VAR" in
     pattern_1)
         # do something
