@@ -99,3 +99,9 @@ function hello() {
 
 hello Kiel
 ```
+
+### Variable Scope
+By default, all variables are global. Variables must be declared before they can be used.
+
+Local variables can be created using the `local` keyword: `local LOCAL_VAR="VALUE"`. This keyword can only be used
+inside functions.
