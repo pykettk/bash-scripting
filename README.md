@@ -78,3 +78,24 @@ successfully whilst any other return code means an error occurred - which can be
 `$?` is a variable that contains the return code of the previously executed command.
 
 `exit NUM` explicitly defines the return code
+
+### Functions
+Functions must be defined **BEFORE** they're called and can be defined in a couple of ways:
+```
+function function-name() {
+    # do something
+}
+
+function-name() {
+    # do something else
+}
+```
+
+Functions can be called simply by referencing them by name:
+```
+function hello() {
+    echo "Hello $1"
+}
+
+hello Kiel
+```
