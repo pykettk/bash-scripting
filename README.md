@@ -1,6 +1,14 @@
 # bash-scripting
 https://www.udemy.com/course/bash-scripting/learn/lecture/5739688#overview
 
+## Script Order & Checklist
+1. Shebang (`#!`)
+2. Comments/introduction to the script
+3. Global variables
+4. Functions
+5. Main script content
+6. Exit status
+
 ## Cheatsheet
 ### Testing Files
 `-d FILE` checks if the file is a directory 
