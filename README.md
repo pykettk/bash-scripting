@@ -39,6 +39,11 @@ https://www.udemy.com/course/bash-scripting/learn/lecture/5739688#overview
 
 `NUM1 -ge NUM2` checks if number one is greater than or equal to number two 
 
+### Logical Operators
+`&&` is AND
+
+`||` is OR
+
 ### Control Statements
 ```bash
 if [ condition ] then
