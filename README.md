@@ -177,3 +177,27 @@ logger -i "Message"
 # log to console
 logger -s "Message"
 ```
+
+## Debugging
+Add `-x` to the end of the shebang to print commands and their arguments as they execute. You can also specify specific
+sections of your script to debug using:
+```
+# begin debugging
+set -x
+
+# do something
+# do something else
+
+# stop debugging
+set +x
+```
+
+Modify the value of the `PS4` variable to help with debugging:
+```
+# print the script name and line number when the -x option is used
+PS4='+ ${BASH_SOURCE}:${LINENO}'
+```
+
+Add `-e` to terminate the script when a command returns a non-zero exit status.
+
+Add `-v` to print commands as they are written.
