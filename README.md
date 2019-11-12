@@ -71,6 +71,17 @@ for VARIABLE_NAME in ITEM_1 ITEM_N do
 done
 ```
 
+```
+case "$VAR" in
+    pattern_1)
+        # do something
+        ;; # terminates the case
+   pattern_n)
+        # do something else
+        ;;
+esac
+```
+
 ### Script Parameters
 Scripts will often accept parameters. These can be accessed using `$X` where `X` is the parameter number.
 `$0` is a special parameter and is reserved for the name of the shell or shell script.
