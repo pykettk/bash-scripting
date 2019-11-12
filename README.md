@@ -76,3 +76,5 @@ Every command returns an exit status. This return code can range from `0` to `25
 successfully whilst any other return code means an error occurred - which can be useful for error checking.
 
 `$?` is a variable that contains the return code of the previously executed command.
+
+`exit NUM` explicitly defines the return code
