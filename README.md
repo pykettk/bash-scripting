@@ -65,3 +65,9 @@ Scripts will often accept parameters. These can be accessed using `$X` where `X`
 
 ### User Input
 `read -p "PROMPT MESSAGE" VAR` will prompt the user for input using the `"PROMPT MESSAGE"` and store it in `$VAR`
+
+### Exit Status
+Every command returns an exit status. This return code can range from `0` to `255`. `0` means the command executed
+successfully whilst any other return code means an error occurred - which can be useful for error checking.
+
+`$?` is a variable that contains the return code of the previously executed command.
