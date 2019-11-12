@@ -77,7 +77,7 @@ successfully whilst any other return code means an error occurred - which can be
 
 `$?` is a variable that contains the return code of the previously executed command.
 
-`exit NUM` explicitly defines the return code
+`return NUM` explicitly defines the return code
 
 ### Functions
 Functions must be defined **BEFORE** they're called and can be defined in a couple of ways:
