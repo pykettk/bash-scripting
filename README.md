@@ -113,3 +113,30 @@ By default, all variables are global. Variables must be declared before they can
 
 Local variables can be created using the `local` keyword: `local LOCAL_VAR="VALUE"`. This keyword can only be used
 inside functions.
+
+### Wildcards
+A wildcard is a character or string used for pattern matching.
+
+`*` matches zero or more characters
+
+`?` matches exactly one character
+
+`[abc]` matches any of the included characters
+
+`!` excludes characters
+
+`-` defines a range of characters
+    
+`[[:alpha:]]` matches upper and lowercase characters
+
+`[[:alnum:]]` matches upper and lowercase characters and integer numbers 
+
+`[[:digit:]]` matches any integer number
+
+`[[:lower:]]` matches lowercase letters
+
+`[[:upper:]]` matches uppercase letters
+
+`[[:space:]]` matches whitespace
+
+\ escapes a character
