@@ -151,3 +151,21 @@ A wildcard is a character or string used for pattern matching.
 `[[:space:]]` matches whitespace
 
 \ escapes a character
+
+### Logging
+```
+# create user.notice message
+logger "Message"
+
+# create local0.info message
+logger -p local0.info "Message"
+
+# tagging
+logger -t your_tag -p local1.debug "Message"
+
+# include the PID
+logger -i "Message"
+
+# log to console
+logger -s "Message"
+```
